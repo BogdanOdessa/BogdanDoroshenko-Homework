@@ -17,6 +17,8 @@ Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 65044
 Successfully changed project path to: C:/Unity/HomeworkGit/BogdanDoroshenko-Homework/Bogdan_Unity_OOP
 C:/Unity/HomeworkGit/BogdanDoroshenko-Homework/Bogdan_Unity_OOP
@@ -25,12 +27,22 @@ Refreshing native plugins compatible for Editor in 18.88 ms, found 0 plugins.
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 65196
 Successfully changed project path to: C:/Unity/HomeworkGit/BogdanDoroshenko-Homework/Bogdan_Unity_OOP
 C:/Unity/HomeworkGit/BogdanDoroshenko-Homework/Bogdan_Unity_OOP
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 24.87 ms, found 0 plugins.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -51,6 +63,8 @@ Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBle
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -61,6 +75,10 @@ Refreshing native plugins compatible for Editor in 20.54 ms, found 0 plugins.
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -69,6 +87,12 @@ Registered in 0.001564 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 21.96 ms, found 0 plugins.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -77,6 +101,8 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Completed reload, in  0.754 seconds
@@ -89,6 +115,10 @@ Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 - Completed reload, in  0.785 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
@@ -97,6 +127,12 @@ Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -107,7 +143,15 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - Completed reload, in  0.654 seconds
+=======
+- Completed reload, in  0.735 seconds
+>>>>>>> Stashed changes
+=======
+- Completed reload, in  0.735 seconds
+>>>>>>> Stashed changes
 =======
 - Completed reload, in  0.735 seconds
 >>>>>>> Stashed changes
@@ -118,6 +162,8 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -131,6 +177,10 @@ Total: 3.926800 ms (FindLiveObjects: 0.283000 ms CreateObjectMapping: 0.112000 m
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1288 Unused Serialized files (Serialized files now loaded: 0)
@@ -139,6 +189,8 @@ System memory in use after: 62.8 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1732.
 Total: 2.177400 ms (FindLiveObjects: 0.255000 ms CreateObjectMapping: 0.169500 ms MarkObjects: 1.695100 ms  DeleteObjects: 0.056600 ms)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
 
@@ -173,6 +225,20 @@ Received Import Request.
   path: Assets/Scripts/CameraShake.cs
   artifactKey: Guid(c3c3c2c1cc24aa44ba87e23e73788e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 >>>>>>> Stashed changes
+=======
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/CameraShake.cs
+  artifactKey: Guid(c3c3c2c1cc24aa44ba87e23e73788e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+>>>>>>> Stashed changes
+=======
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/CameraShake.cs
+  artifactKey: Guid(c3c3c2c1cc24aa44ba87e23e73788e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+>>>>>>> Stashed changes
 Start importing Assets/Scripts/CameraShake.cs using Guid(c3c3c2c1cc24aa44ba87e23e73788e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0076292897553f66f6705d22f99f02') in 0.015840 seconds
   Import took 0.017733 seconds .
 
@@ -187,6 +253,12 @@ System memory in use after: 36.9 MB.
 Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1732.
 Total: 1.635100 ms (FindLiveObjects: 0.170400 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.387700 ms  DeleteObjects: 0.037600 ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -196,6 +268,8 @@ Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.000438 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -203,11 +277,21 @@ Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Registered in 0.000440 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -218,9 +302,21 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - Completed reload, in  0.636 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+=======
+- Completed reload, in  0.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+>>>>>>> Stashed changes
+=======
+- Completed reload, in  0.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+>>>>>>> Stashed changes
 =======
 - Completed reload, in  0.719 seconds
 Platform modules already initialized, skipping
@@ -239,7 +335,15 @@ System memory in use after: 62.5 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1735.
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Total: 1.418300 ms (FindLiveObjects: 0.159000 ms CreateObjectMapping: 0.063000 ms MarkObjects: 1.183900 ms  DeleteObjects: 0.011700 ms)
+=======
+Total: 1.612300 ms (FindLiveObjects: 0.257100 ms CreateObjectMapping: 0.103500 ms MarkObjects: 1.237300 ms  DeleteObjects: 0.011900 ms)
+>>>>>>> Stashed changes
+=======
+Total: 1.612300 ms (FindLiveObjects: 0.257100 ms CreateObjectMapping: 0.103500 ms MarkObjects: 1.237300 ms  DeleteObjects: 0.011900 ms)
+>>>>>>> Stashed changes
 =======
 Total: 1.612300 ms (FindLiveObjects: 0.257100 ms CreateObjectMapping: 0.103500 ms MarkObjects: 1.237300 ms  DeleteObjects: 0.011900 ms)
 >>>>>>> Stashed changes
@@ -252,6 +356,8 @@ Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.000437 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -259,11 +365,21 @@ Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Registered in 0.000936 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -274,9 +390,21 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - Completed reload, in  0.647 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+=======
+- Completed reload, in  0.659 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+>>>>>>> Stashed changes
+=======
+- Completed reload, in  0.659 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+>>>>>>> Stashed changes
 =======
 - Completed reload, in  0.659 seconds
 Platform modules already initialized, skipping
@@ -293,6 +421,8 @@ System memory in use before: 62.4 MB.
 System memory in use after: 62.5 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1738.
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Total: 1.396500 ms (FindLiveObjects: 0.175100 ms CreateObjectMapping: 0.030600 ms MarkObjects: 1.181000 ms  DeleteObjects: 0.009100 ms)
@@ -313,6 +443,10 @@ Received Import Request.
 Start importing Assets/Scripts/CaughtPlayerEventArgs.cs using Guid(ee3a9550d4d1ac34db5eb294416d09e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ae459b7b660d69ed06a4beb9c185e6') in 0.007095 seconds
   Import took 0.009023 seconds .
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 Total: 1.541000 ms (FindLiveObjects: 0.204700 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.256000 ms  DeleteObjects: 0.041600 ms)
@@ -348,6 +482,12 @@ Received Import Request.
 Start importing Assets/Scripts/GameController.cs using Guid(0e00c28d94d8bb94c80e4270505bd677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56347808c9c211eaa13cc839f0600deb') in 0.003733 seconds
   Import took 0.005525 seconds .
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -357,6 +497,8 @@ Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.000411 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -364,11 +506,21 @@ Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Registered in 0.000702 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -379,7 +531,15 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - Completed reload, in  0.702 seconds
+=======
+- Completed reload, in  0.654 seconds
+>>>>>>> Stashed changes
+=======
+- Completed reload, in  0.654 seconds
+>>>>>>> Stashed changes
 =======
 - Completed reload, in  0.654 seconds
 >>>>>>> Stashed changes
@@ -395,6 +555,8 @@ System memory in use after: 62.5 MB.
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1741.
 Total: 1.453300 ms (FindLiveObjects: 0.135200 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.272000 ms  DeleteObjects: 0.009500 ms)
 
@@ -406,6 +568,10 @@ Received Import Request.
 Start importing Assets/Scripts/GameController.cs using Guid(0e00c28d94d8bb94c80e4270505bd677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545c63efa89dfeb60c38cac00a558d85') in 0.006406 seconds
   Import took 0.008145 seconds .
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1744.
@@ -450,6 +616,12 @@ Received Import Request.
 Start importing Assets/Scripts/InteractiveObject.cs using Guid(80e62927a9961404ca1e2d638287aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c25a4d17aed17c4e4549c7582586fda') in 0.001948 seconds
   Import took 0.003539 seconds .
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -459,6 +631,8 @@ Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.000470 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -466,11 +640,21 @@ Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Registered in 0.000794 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -479,6 +663,8 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Completed reload, in  0.626 seconds
@@ -508,6 +694,10 @@ Received Import Request.
 Start importing Assets/Scripts/GameController.cs using Guid(0e00c28d94d8bb94c80e4270505bd677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b102a7c72ef45b12f6e4b38d95709a') in 0.001857 seconds
   Import took 0.003475 seconds .
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 - Completed reload, in  0.642 seconds
@@ -729,6 +919,12 @@ System memory in use after: 62.6 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1774.
 Total: 1.580700 ms (FindLiveObjects: 0.200300 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.334000 ms  DeleteObjects: 0.009400 ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -738,7 +934,15 @@ Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.000740 seconds.
+=======
+Registered in 0.000400 seconds.
+>>>>>>> Stashed changes
+=======
+Registered in 0.000400 seconds.
+>>>>>>> Stashed changes
 =======
 Registered in 0.000400 seconds.
 >>>>>>> Stashed changes
@@ -755,8 +959,14 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - Completed reload, in  0.617 seconds
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 - Completed reload, in  0.662 seconds
@@ -807,6 +1017,12 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.727 seconds
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -816,12 +1032,18 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1280 Unused Serialized files (Serialized files now loaded: 0)
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 System memory in use before: 62.4 MB.
 System memory in use after: 62.5 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1747.
 Total: 2.893900 ms (FindLiveObjects: 0.193600 ms CreateObjectMapping: 0.527000 ms MarkObjects: 2.161900 ms  DeleteObjects: 0.010900 ms)
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 System memory in use before: 62.5 MB.
@@ -1818,6 +2040,12 @@ System memory in use after: 66.0 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1899.
 Total: 1.598000 ms (FindLiveObjects: 0.231600 ms CreateObjectMapping: 0.066200 ms MarkObjects: 1.258900 ms  DeleteObjects: 0.009300 ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
