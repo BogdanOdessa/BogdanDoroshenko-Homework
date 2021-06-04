@@ -6,13 +6,15 @@ using static UnityEngine.Debug;
 
 namespace Game
 {
-    public class Player : MonoBehaviour, ISpeedChange, IDisposable
+    public sealed class Player : MonoBehaviour, ISpeedChange, IDisposable
     {
 
         private Rigidbody _body;
+        private Material _material;
+        private Color _initialColor;
 
-        [SerializeField] private float currentSpeed;
-        private float _initialSpeed = 300f;
+       [SerializeField] private float currentSpeed;
+        private readonly float _initialSpeed = 300f;
 
         [SerializeField] private float _rotationSpeed;
 
@@ -26,13 +28,14 @@ namespace Game
 
         private bool isBonusPicked = false;
 
-        private float _timeForBonus = 10f;
+        private readonly float _timeForBonus = 7f;
         [SerializeField] private float _bonusTime;
 
 
         void Start()
         {
-
+            _material = GetComponent<Renderer>().material;
+            _initialColor = GetComponent<Renderer>().material.color;
             _body = GetComponent<Rigidbody>();
             currentSpeed = _initialSpeed;
             _bonusTime = _timeForBonus;
@@ -48,6 +51,7 @@ namespace Game
                 if (_bonusTime < 0f)
                 {
                     SpeedNormal();
+                    ColorNomral();
                     _bonusTime = _timeForBonus;
                     isBonusPicked = false;
                    
@@ -166,7 +170,7 @@ namespace Game
             isBonusPicked = true;
         }
 
-        public void Die()
+        public void Die(object value, Color color)
         {
             Dispose();
             Log("Game Over -_-");
@@ -174,6 +178,21 @@ namespace Game
         public void Dispose()
         {
             Destroy(gameObject);
+        }
+
+        public void ChangeColorToBadEffect()
+        {
+            _material.color = Color.yellow; /*Color.Lerp(Color.red, Color.yellow, 10);*/
+        }
+
+        public void ColorNomral()
+        {
+            _material.color = _initialColor;
+        }
+
+        public void ChangeColorToGoodEffect()
+        {
+            _material.color = Color.green;
         }
     }
 }

@@ -6,24 +6,25 @@ namespace Game
 {
     public abstract class InteractiveObject : MonoBehaviour, IInteractable, IAction , System.IDisposable
     {
-
-        //private GameController _gameController;
+        protected Color _color;
+        //[SerializeField]private GameController _gameController;
 
         public virtual void Action()
         {
+            _color = Random.ColorHSV();
             if (TryGetComponent(out Renderer renderer))
             {
-                renderer.material.color = Random.ColorHSV();
+                renderer.material.color = _color;
             }
         }
 
         public abstract void Interraction();
 
-        private void Start()
-        {
-            Action();
-            //_gameController = FindObjectOfType<GameController>().GetComponent<GameController>();
-        }
+        //private void Start()
+        //{
+        //    Action();
+           
+        //}
 
         private void OnTriggerEnter(Collider other)
         {
@@ -33,12 +34,14 @@ namespace Game
                 return;
             }
             Interraction();
+            //_gameController.Dispose();
             Dispose();
         }
 
         public void Dispose()
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

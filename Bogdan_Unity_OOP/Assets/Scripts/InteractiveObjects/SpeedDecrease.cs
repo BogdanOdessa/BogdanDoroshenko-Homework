@@ -1,17 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Game;
 
-    public class SpeedDecrease : InteractiveObject, IFlick
+namespace Game
+{
+    public sealed class SpeedDecrease : InteractiveObject, IFlick
     {
+
+        public MyDelegate myDelegate;
+
         private Material _material;
 
-        private Player _player;
+        //private Player _player;
 
         private void Start()
         {
-            _player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+            //_player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
             _material = GetComponent<Renderer>().material;
         }
         public void Flick()
@@ -21,15 +25,19 @@ using Game;
 
         public override void Interraction()
         {
-            _player.GetBonus();
-            _player.SpeedDecrease();
+            myDelegate?.Invoke();
+            //_player.GetBonus();
+            //_player.SpeedDecrease();
+            //_player.ChangeColorToBadEffect();
         }
 
-        private void Update()
-        {
-            Flick();
-        }
+        //private void Update()
+        //{
+        //    Flick();
+        //}
     }
+}
+   
    
 
 
