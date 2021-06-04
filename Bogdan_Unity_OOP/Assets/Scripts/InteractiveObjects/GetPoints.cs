@@ -1,12 +1,19 @@
-using Game;
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-    public class GetPoints : InteractiveObject, IRotation
+namespace Game
+{
+    public delegate void MyDelegate();
+    public sealed class GetPoints : InteractiveObject, IRotation
     {
-        private DisplayBonuses _displayBonuses;
+
+        public event MyDelegate MyEvent;
+
+
+        private DisplayText _displayBonuses;
 
         private float _rotationSpeed = 20f;
 
@@ -15,33 +22,50 @@ using UnityEngine;
 
         private PointsCounter _pointsCounter;
 
+        private CameraShake _cameraShake;
+
         private void Awake()
         {
-            _displayBonuses = new DisplayBonuses();
+            _displayBonuses = new DisplayText();
         }
 
-    private void Start()
-    {
-        _pointsCounter = FindObjectOfType<PointsCounter>().GetComponent<PointsCounter>();
-        Action();
-    }
-
-    public override void Interraction()
+        private void Start()
         {
-        _pointsCounter.GetPoints(_pointsAmount);
-        _displayBonuses.Display(_pointsCounter.Totalpoints);
-    }
+            _pointsCounter = FindObjectOfType<PointsCounter>().GetComponent<PointsCounter>();
+            _cameraShake = FindObjectOfType<CameraShake>().GetComponent<CameraShake>();
+            Action();
+        }
 
-    public void Rotate()
+        public override void Interraction()
+        {
+            MyEvent?.Invoke();
+            //ShowAndCountPoints();
+            //ShakeCamera();
+        }
+
+        public void Rotate()
         {
             transform.Rotate(Vector3.one * (Time.deltaTime * _rotationSpeed), Space.World);
         }
 
-        private void Update()
+        //private void Update()
+        //{
+        //    Rotate();
+        //}
+
+        public void ShowAndCountPoints()
         {
-            Rotate();
+            _pointsCounter.GetPoints(_pointsAmount);
+            _displayBonuses.Display(_pointsCounter.Totalpoints);
+        }
+        
+        public void ShakeCamera()
+        {
+            _cameraShake.Shake();
         }
     }
+}
+
 
     
     
