@@ -10,6 +10,8 @@ namespace Game
         {
             FindObjectOfType<SpeedBonus>().Clone();
         }
+
+        
     }
 }
 

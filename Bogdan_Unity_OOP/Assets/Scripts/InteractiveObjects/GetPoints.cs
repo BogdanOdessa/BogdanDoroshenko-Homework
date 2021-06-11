@@ -1,47 +1,76 @@
-using Game;
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-    public class GetPoints : InteractiveObject, IRotation
+namespace Game
+{
+    public delegate void MyDelegate();
+    public sealed class GetPoints : InteractiveObject, IRotation
     {
-        private DisplayBonuses _displayBonuses;
+
+        public event MyDelegate MyEventOnPointChange;
+
+        private DisplayText _displayBonuses;
 
         private float _rotationSpeed = 20f;
 
-        //public float Points { get; private set; } = 20f;
         [SerializeField] private float _pointsAmount = 20f;
 
         private PointsCounter _pointsCounter;
 
+        private CameraShake _cameraShake;
+
+        private CameraController _cameraController;
+
         private void Awake()
         {
-            _displayBonuses = new DisplayBonuses();
+            
         }
 
-    private void Start()
-    {
-        _pointsCounter = FindObjectOfType<PointsCounter>().GetComponent<PointsCounter>();
-        Action();
-    }
-
-    public override void Interraction()
+        private void Start()
         {
-        _pointsCounter.GetPoints(_pointsAmount);
-        _displayBonuses.Display(_pointsCounter.Totalpoints);
-    }
+            _cameraShake = FindObjectOfType<CameraShake>();
+            Action();
+            //var reference = new Reference();
+            _pointsCounter = FindObjectOfType<PointsCounter>();
+            
+        }
+        public override void Execute()
+        {
+          
+            Rotate();
+        }
 
-    public void Rotate()
+        public override void Interraction()
+        {
+            
+            MyEventOnPointChange?.Invoke();
+            //ShowAndCountPoints();
+            //ShakeCamera();
+        }
+
+        public void Rotate()
         {
             transform.Rotate(Vector3.one * (Time.deltaTime * _rotationSpeed), Space.World);
         }
 
-        private void Update()
+        public void ShowAndCountPoints()
+
         {
-            Rotate();
+           
+            _pointsCounter.GetPoints(_pointsAmount);
+            //_displayBonuses.Display(_pointsCounter.Totalpoints);
         }
+        
+        //public void ShakeCamera()
+        //{
+        //    _cameraShake.Shake();
+        //}
     }
+}
+
 
     
     
