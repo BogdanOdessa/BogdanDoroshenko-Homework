@@ -7,15 +7,14 @@ namespace Game
     public sealed class SpeedDecrease : InteractiveObject, IFlick
     {
 
-        public MyDelegate myDelegate;
+        public MyDelegate myDelegateSpeedIncrease;
 
         private Material _material;
 
-        //private Player _player;
+       
 
         private void Start()
         {
-            //_player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
             _material = GetComponent<Renderer>().material;
         }
         public void Flick()
@@ -25,16 +24,17 @@ namespace Game
 
         public override void Interraction()
         {
-            myDelegate?.Invoke();
+            myDelegateSpeedIncrease?.Invoke();
             //_player.GetBonus();
             //_player.SpeedDecrease();
             //_player.ChangeColorToBadEffect();
         }
 
-        //private void Update()
-        //{
-        //    Flick();
-        //}
+        public override void Execute()
+        {
+            Flick();
+        }
+
     }
 }
    

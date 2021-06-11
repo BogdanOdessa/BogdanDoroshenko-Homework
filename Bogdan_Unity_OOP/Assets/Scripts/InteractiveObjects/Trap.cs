@@ -8,8 +8,6 @@ namespace Game
     {
         public delegate void CaughtPlayerChange(object value);
 
-        //public event CaughtPlayerChange CaughtPlayer;
-
         private event EventHandler<Color> _caughtPlayer;
         public event EventHandler<Color> CaughtPlayer
         {
@@ -17,7 +15,6 @@ namespace Game
             remove { _caughtPlayer -= value; }
         }
 
-        //private Player _player;
         private float _lengthFlay;
         private Material _material;
 
@@ -25,7 +22,6 @@ namespace Game
         {
             _lengthFlay = Random.Range(2f, 4f);
             _material = GetComponent<Renderer>().material;
-            //_player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
             Action();
         }
 
@@ -43,13 +39,15 @@ namespace Game
         public override void Interraction()
         {
             _caughtPlayer?.Invoke(this, _color);
+            
             //_player.Die();
         }
 
-        //private void Update()
-        //{
-        //    Flay();
-        //}
+        public override void Execute()
+        {
+            Flay();
+        }
+
     }
 }
 

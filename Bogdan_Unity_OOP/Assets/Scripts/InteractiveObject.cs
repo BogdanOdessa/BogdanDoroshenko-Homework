@@ -4,10 +4,9 @@ using UnityEngine;
 
 namespace Game
 {
-    public abstract class InteractiveObject : MonoBehaviour, IInteractable, IAction , System.IDisposable
+    public abstract class InteractiveObject : MonoBehaviour, IInteractable, IAction , System.IDisposable, IExecute
     {
         protected Color _color;
-        //[SerializeField]private GameController _gameController;
 
         public virtual void Action()
         {
@@ -20,11 +19,7 @@ namespace Game
 
         public abstract void Interraction();
 
-        //private void Start()
-        //{
-        //    Action();
-           
-        //}
+        public abstract void Execute();
 
         private void OnTriggerEnter(Collider other)
         {
@@ -34,15 +29,15 @@ namespace Game
                 return;
             }
             Interraction();
-            //_gameController.Dispose();
             Dispose();
         }
 
         public void Dispose()
         {
-            //Destroy(gameObject);
             gameObject.SetActive(false);
+            //Destroy(gameObject);
         }
+       
     }
 }
     

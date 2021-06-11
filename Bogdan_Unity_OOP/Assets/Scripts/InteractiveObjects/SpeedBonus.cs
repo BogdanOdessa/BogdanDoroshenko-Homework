@@ -8,23 +8,19 @@ namespace Game
 {
     public sealed class SpeedBonus : InteractiveObject, IFlick, ICloneable
     {
-
-        public event Action ActionEvent = delegate { };
+        public event Action ActionEventSpeedBonus = delegate { };
 
         private Material _material;
 
-        //private Player _player;
-
         private float _flickIntensivity;
-
 
         [SerializeField] Transform spawnClonePosition;
 
         private void Start()
         {
             _material = GetComponent<Renderer>().material;
-            //_player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
             _flickIntensivity = Random.Range(1f, 3f);
+
         }
         public void Flick()
         {
@@ -33,8 +29,7 @@ namespace Game
 
         public override void Interraction()
         {
-            ActionEvent.Invoke();
-
+            ActionEventSpeedBonus.Invoke();
             //_player.GetBonus(); 
             //_player.SpeedIncrease();
         }
@@ -46,10 +41,11 @@ namespace Game
             return result;
         }
 
-        //private void Update()
-        //{
-        //    Flick();
-        //}
+        public override void Execute()
+        {
+            Flick();
+        }
+
     }
 }
 

@@ -3,74 +3,85 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace MazeControllers
+namespace Game
 {
-    public sealed class CameraController : MonoBehaviour
+    public sealed class CameraController : IExecute
     {
-        [SerializeField] private Transform _target;
-        [SerializeField] private float offsetDistance = 3f;
-        private Vector3 positionForCamera;
+        private Transform _player;
+        private Transform _mainCamera;
+        private Vector3 _offset;
+        private Vector3 originalPos;
 
-        private CameraShake cameraShake;
+        [SerializeField] private float shakeDuration = 0f;
 
-        private void Start()
+        [SerializeField] private float shakeAmount = 0.02f;
+        [SerializeField] private float decreaseFactor = 3f;
+
+        public CameraController(Transform player, Transform mainCamera)
         {
-          var cameraShake = FindObjectOfType<CameraShake>().GetComponent<CameraShake>();         
+            _player = player;
+            _mainCamera = mainCamera;
+            _mainCamera.LookAt(_player);
+            _offset = _mainCamera.position - _player.position;
         }
 
-        void Update()
-        {
-            if (IsTargetNotNull())
-                positionForCamera = _target.transform.position - _target.transform.forward * offsetDistance;
-        }
 
-        void LateUpdate()
+        public void Execute()
         {
-           
-
-            if (IsTargetNotNull())
+            originalPos = _mainCamera.localPosition;
+            if (_player != null)
             {
-                transform.position = positionForCamera;
-                transform.rotation = Quaternion.LookRotation(_target.transform.position - transform.position, Vector3.up);
-              
-            }
-        }
                 
+                if (shakeDuration > 0)
+                {
+                    _mainCamera.localPosition = originalPos + Random.insideUnitSphere * shakeAmount;
 
-        private bool IsTargetNotNull()
-        {
-            return _target;
+                    shakeDuration -= Time.deltaTime * decreaseFactor;
+                }
+                else
+                {
+                    shakeDuration = 0f;
+                    //_mainCamera.localPosition = originalPos;
+                    _mainCamera.position = _player.position + _offset;
+                }
+            }
+
+
+
         }
 
-        //public void Flay()
-        //{
-          
+        public void Shake()
+        {
+            shakeDuration = 1f;
+        }
 
+        
+
+
+        #region PreviousCamera
+        //void Update()
+        //{
+        //    if (IsTargetNotNull())
+        //        positionForCamera = _target.transform.position - _target.transform.forward * offsetDistance;
         //}
 
-        //public IEnumerator Shake(float duration, float magnitude)
+        //void LateUpdate()
         //{
-        //    Vector3 originalPoz = transform.position;
 
-        //    float elapsed = 0.0f;
 
-        //    while (elapsed < duration)
+        //    if (IsTargetNotNull())
         //    {
-        //        float x = Random.Range(-1f, 1f) * magnitude;
-        //        float y = Random.Range(-1f, 1f) * magnitude;
-        //        transform.position = new Vector3(x, y, originalPoz.z);
-        //        elapsed += Time.time;
+        //        transform.position = positionForCamera;
+        //        transform.rotation = Quaternion.LookRotation(_target.transform.position - transform.position, Vector3.up);
 
-        //        yield return null;
         //    }
-
-        //    transform.position = originalPoz;
         //}
 
-        //public void Shake()
+        //private bool IsTargetNotNull()
         //{
-        //    cameraShake.shakeDuration = 1f;
+        //    return _target;
         //}
+        #endregion
     }
 
 }

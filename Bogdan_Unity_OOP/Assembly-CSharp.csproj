@@ -56,14 +56,18 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\TrashScripts\PredicateAndFuncDelegatesExample.cs" />
+    <Compile Include="Assets\Scripts\Player\InputController.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\PredicateAndFuncDelegatesExample.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IAction.cs" />
-    <Compile Include="Assets\Scripts\TrashScripts\PlayerSpeed.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\PlayerSpeed.cs" />
+    <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\MyException.cs" />
     <Compile Include="Assets\Scripts\DisplayText.cs" />
     <Compile Include="Assets\Scripts\CaughtPlayerEventArgs.cs" />
-    <Compile Include="Assets\Scripts\TrashScripts\DisplayEndGame.cs" />
+    <Compile Include="Assets\Scripts\ListExecuteObject.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerBase.cs" />
+    <Compile Include="Assets\Scripts\Reference.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\DisplayEndGame.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\SpeedDecrease.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\CameraShake.cs" />
@@ -71,17 +75,21 @@
     <Compile Include="Assets\Scripts\InteractiveObjects\Trap.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IFlick.cs" />
     <Compile Include="Assets\Scripts\Interfaces\ISpeedChange.cs" />
-    <Compile Include="Assets\Scripts\TrashScripts\TestP.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\TestP.cs" />
     <Compile Include="Assets\Scripts\InteractiveObject.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\Clone.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IExecute.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\SpeedBonus.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IRotation.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\TrashScripts\Head.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\Head.cs" />
+    <Compile Include="Assets\Scripts\PlayerType.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IFlay.cs" />
     <Compile Include="Assets\Scripts\PointsCounter.cs" />
-    <Compile Include="Assets\testsss.cs" />
+    <Compile Include="Assets\Scripts\SpeedIncrease\SpeedModel.cs" />
+    <Compile Include="Assets\Scripts\SpeedIncrease\SpeedControl.cs" />
+    <Compile Include="Assets\Scripts\SpeedIncrease\SpeedView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

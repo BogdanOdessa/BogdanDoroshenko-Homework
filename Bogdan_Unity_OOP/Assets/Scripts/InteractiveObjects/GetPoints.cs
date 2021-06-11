@@ -10,35 +10,43 @@ namespace Game
     public sealed class GetPoints : InteractiveObject, IRotation
     {
 
-        public event MyDelegate MyEvent;
-
+        public event MyDelegate MyEventOnPointChange;
 
         private DisplayText _displayBonuses;
 
         private float _rotationSpeed = 20f;
 
-        //public float Points { get; private set; } = 20f;
         [SerializeField] private float _pointsAmount = 20f;
 
         private PointsCounter _pointsCounter;
 
         private CameraShake _cameraShake;
 
+        private CameraController _cameraController;
+
         private void Awake()
         {
-            _displayBonuses = new DisplayText();
+            
         }
 
         private void Start()
         {
-            _pointsCounter = FindObjectOfType<PointsCounter>().GetComponent<PointsCounter>();
-            _cameraShake = FindObjectOfType<CameraShake>().GetComponent<CameraShake>();
+            _cameraShake = FindObjectOfType<CameraShake>();
             Action();
+            //var reference = new Reference();
+            _pointsCounter = FindObjectOfType<PointsCounter>();
+            
+        }
+        public override void Execute()
+        {
+          
+            Rotate();
         }
 
         public override void Interraction()
         {
-            MyEvent?.Invoke();
+            
+            MyEventOnPointChange?.Invoke();
             //ShowAndCountPoints();
             //ShakeCamera();
         }
@@ -48,21 +56,18 @@ namespace Game
             transform.Rotate(Vector3.one * (Time.deltaTime * _rotationSpeed), Space.World);
         }
 
-        //private void Update()
-        //{
-        //    Rotate();
-        //}
-
         public void ShowAndCountPoints()
+
         {
+           
             _pointsCounter.GetPoints(_pointsAmount);
-            _displayBonuses.Display(_pointsCounter.Totalpoints);
+            //_displayBonuses.Display(_pointsCounter.Totalpoints);
         }
         
-        public void ShakeCamera()
-        {
-            _cameraShake.Shake();
-        }
+        //public void ShakeCamera()
+        //{
+        //    _cameraShake.Shake();
+        //}
     }
 }
 
