@@ -65,11 +65,15 @@
     <Compile Include="Assets\Scripts\DisplayText.cs" />
     <Compile Include="Assets\Scripts\CaughtPlayerEventArgs.cs" />
     <Compile Include="Assets\Scripts\ListExecuteObject.cs" />
+    <Compile Include="Assets\Scripts\SpeedIncrease\SpeedModel.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerBase.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\ExampleLinq.cs" />
     <Compile Include="Assets\Scripts\Reference.cs" />
     <Compile Include="Assets\Scripts\TestScripts\DisplayEndGame.cs" />
+    <Compile Include="Assets\Scripts\SpeedIncrease\SpeedView.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\SpeedDecrease.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\Test.cs" />
     <Compile Include="Assets\Scripts\CameraShake.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\GetPoints.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\Trap.cs" />
@@ -80,6 +84,8 @@
     <Compile Include="Assets\Scripts\InteractiveObjects\Clone.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IExecute.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\SpeedIncrease\SpeedControl.cs" />
+    <Compile Include="Assets\Scripts\ExtensionMethods.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\SpeedBonus.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IRotation.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
@@ -87,9 +93,7 @@
     <Compile Include="Assets\Scripts\PlayerType.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IFlay.cs" />
     <Compile Include="Assets\Scripts\PointsCounter.cs" />
-    <Compile Include="Assets\Scripts\SpeedIncrease\SpeedModel.cs" />
-    <Compile Include="Assets\Scripts\SpeedIncrease\SpeedControl.cs" />
-    <Compile Include="Assets\Scripts\SpeedIncrease\SpeedView.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\Homework5.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
