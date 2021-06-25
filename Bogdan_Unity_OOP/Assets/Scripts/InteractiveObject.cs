@@ -6,7 +6,11 @@ namespace Game
 {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public abstract class InteractiveObject : MonoBehaviour, IInteractable, IAction , System.IDisposable
+=======
+    public abstract class InteractiveObject : MonoBehaviour, IInteractable, IAction, System.IDisposable, IExecute
+>>>>>>> Stashed changes
 =======
     public abstract class InteractiveObject : MonoBehaviour, IInteractable, IAction, System.IDisposable, IExecute
 >>>>>>> Stashed changes
@@ -49,9 +53,12 @@ namespace Game
         {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             Destroy(gameObject);
         }
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             //gameObject.SetActive(false);
@@ -59,6 +66,9 @@ namespace Game
         }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

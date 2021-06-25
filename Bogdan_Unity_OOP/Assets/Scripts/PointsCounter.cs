@@ -12,6 +12,9 @@ namespace Game
         [SerializeField] private float _totalPoints;
         public float Totalpoints { get => _totalPoints; set => _totalPoints = value; }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

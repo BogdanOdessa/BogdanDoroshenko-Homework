@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\Interfaces\IAction.cs" />
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\PlayerSpeed.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\DisplayBonuses.cs" />
@@ -66,6 +67,8 @@
     <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\GetPoints.cs" />
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\Player\PlayerSpeed.cs" />
@@ -92,6 +95,9 @@
     <Compile Include="Assets\Scripts\CameraShake.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\PointsReceiver.cs" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -109,6 +115,9 @@
     <Compile Include="Assets\Scripts\Player\Crypto.cs" />
     <Compile Include="Assets\Scripts\MiniMap.cs" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -131,6 +140,9 @@
     <Compile Include="Assets\Scripts\Controllers\BonusController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerRender.cs" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
