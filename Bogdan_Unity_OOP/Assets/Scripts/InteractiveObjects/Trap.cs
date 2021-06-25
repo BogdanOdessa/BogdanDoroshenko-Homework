@@ -5,7 +5,19 @@ using Game;
 
     public class Trap : InteractiveObject, IFlay
     {
+<<<<<<< Updated upstream
         private Player _player;
+=======
+        public delegate void CaughtPlayerChange(object value);
+
+        public event EventHandler<Color> _caughtPlayer;
+        // public event EventHandler<Color> CaughtPlayer
+        // {
+        //     add { _caughtPlayer += value; }
+        //     remove { _caughtPlayer -= value; }
+        // }
+
+>>>>>>> Stashed changes
         private float _lengthFlay;
         private Material _material;
 
@@ -24,7 +36,8 @@ using Game;
         }
         public void Flay()
         {
-            transform.position = new Vector3(transform.position.x, Mathf.PingPong(Time.time, _lengthFlay), transform.position.z);
+            if (this != null)
+              transform.position = new Vector3(transform.position.x, Mathf.PingPong(Time.time, _lengthFlay), transform.position.z);
         }
 
         public override void Interraction()

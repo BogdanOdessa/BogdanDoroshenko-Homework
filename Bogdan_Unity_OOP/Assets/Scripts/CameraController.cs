@@ -19,9 +19,34 @@ namespace MazeControllers
 
         void LateUpdate()
         {
+<<<<<<< Updated upstream
             transform.position = positionForCamera;
             if (IsTargetNotNull())
                 transform.rotation = Quaternion.LookRotation(_target.transform.position - transform.position, Vector3.up);
+=======
+            //_mainCamera.position = _player.position + _offset;
+
+            originalPos = _mainCamera.localPosition;
+            if (_player != null)
+            {
+
+                if (shakeDuration > 0)
+                {
+                    _mainCamera.localPosition = originalPos + Random.insideUnitSphere * shakeAmount;
+
+                    shakeDuration -= Time.deltaTime * decreaseFactor;
+                }
+                else
+                {
+                    shakeDuration = 0f;
+                    //_mainCamera.localPosition = originalPos;
+                    _mainCamera.position = _player.position + _offset;
+                }
+            }
+
+
+
+>>>>>>> Stashed changes
         }
 
         private bool IsTargetNotNull()

@@ -4,7 +4,11 @@ using UnityEngine;
 
 namespace Game
 {
+<<<<<<< Updated upstream
     public abstract class InteractiveObject : MonoBehaviour, IInteractable, IAction , System.IDisposable
+=======
+    public abstract class InteractiveObject : MonoBehaviour, IInteractable, IAction, System.IDisposable, IExecute
+>>>>>>> Stashed changes
     {
 
         //private GameController _gameController;
@@ -27,8 +31,9 @@ namespace Game
 
         private void OnTriggerEnter(Collider other)
         {
-
-            if (!other.CompareTag("Player"))
+            
+            if (!other.gameObject.GetComponent<Player>())
+                //!other.CompareTag("Player")
             {
                 return;
             }
@@ -38,8 +43,15 @@ namespace Game
 
         public void Dispose()
         {
+<<<<<<< Updated upstream
             Destroy(gameObject);
         }
+=======
+            //gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
+
+>>>>>>> Stashed changes
     }
 }
     
