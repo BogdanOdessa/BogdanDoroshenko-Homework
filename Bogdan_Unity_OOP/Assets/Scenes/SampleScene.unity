@@ -1817,6 +1817,13 @@ PrefabInstance:
     - target: {fileID: 3993119072622726379, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
       propertyPath: m_Name
       value: GetPoints(1)
+<<<<<<< Updated upstream
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993119072622726379, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
+      propertyPath: m_TagString
+      value: Points
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
@@ -3310,12 +3317,15 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 270.55, y: 0, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!4 &873949130 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1735744410021388111, guid: 179de82b002b8db4e99beca5933f3291, type: 3}
   m_PrefabInstance: {fileID: 1630007930}
   m_PrefabAsset: {fileID: 0}
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &861581349 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3993119072622726379, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
@@ -3334,6 +3344,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ico: {fileID: 6014745556994806794, guid: ce013885fa6ed4f4eb9d5673fd343091, type: 3}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!4 &878239743 stripped
 Transform:
@@ -3923,8 +3936,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0.08030398, y: -0.00070080225, z: -0.008698353, w: 0.99673223}
   m_LocalPosition: {x: 5.32, y: 3.21, z: -52.53}
+=======
+  m_LocalRotation: {x: 0.114585936, y: 0.0010129719, z: -0.008781705, w: 0.993374}
+  m_LocalPosition: {x: 3.78, y: 4.49, z: -51.85}
+>>>>>>> Stashed changes
 =======
   m_LocalRotation: {x: 0.114585936, y: 0.0010129719, z: -0.008781705, w: 0.993374}
   m_LocalPosition: {x: 3.78, y: 4.49, z: -51.85}
@@ -3933,6 +3951,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_LocalEulerAnglesHint: {x: 9.211, y: -0.162, z: -1.013}
 --- !u!114 &963194229
@@ -3949,6 +3968,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 873949130}
   offsetDistance: 10
+=======
+  m_LocalEulerAnglesHint: {x: 13.16, y: 0, z: -1.013}
+>>>>>>> Stashed changes
 =======
   m_LocalEulerAnglesHint: {x: 13.16, y: 0, z: -1.013}
 >>>>>>> Stashed changes
@@ -4585,6 +4607,13 @@ PrefabInstance:
     - target: {fileID: 3993119072622726379, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
       propertyPath: m_Name
       value: GetPoints(4)
+<<<<<<< Updated upstream
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993119072622726379, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
+      propertyPath: m_TagString
+      value: Points
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
@@ -5203,7 +5232,12 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - {fileID: 60531382}
+=======
+  - {fileID: 1654523696}
+  - {fileID: 2053440664}
+>>>>>>> Stashed changes
 =======
   - {fileID: 1654523696}
   - {fileID: 2053440664}
@@ -5217,6 +5251,27 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1266027618 stripped
+<<<<<<< Updated upstream
+=======
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3993119072622726379, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
+  m_PrefabInstance: {fileID: 2007176378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1266027623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266027618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cec0026ad16a9f40ab51b4afb7ac87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ico: {fileID: 6014745556994806794, guid: ce013885fa6ed4f4eb9d5673fd343091, type: 3}
+--- !u!1 &1287926905
+>>>>>>> Stashed changes
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3993119072622726379, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
   m_PrefabInstance: {fileID: 2007176378}
@@ -8134,7 +8189,10 @@ Transform:
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1925922422
 GameObject:
   m_ObjectHideFlags: 0
@@ -8411,6 +8469,13 @@ PrefabInstance:
     - target: {fileID: 3993119072622726379, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
       propertyPath: m_Name
       value: GetPoints(3)
+<<<<<<< Updated upstream
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993119072622726379, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
+      propertyPath: m_TagString
+      value: Points
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
@@ -8738,6 +8803,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04798b09c8431a0488b8e520d60bf710, type: 3}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1001 &2062962454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8800,6 +8866,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c543239420f668468807b2697ea6be7, type: 3}
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &2053440663
 GameObject:
   m_ObjectHideFlags: 0
@@ -8876,6 +8944,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2053440663}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!4 &2072553954 stripped
 Transform:
@@ -8940,6 +9011,13 @@ PrefabInstance:
     - target: {fileID: 3993119072622726379, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
       propertyPath: m_Name
       value: GetPoints(2)
+<<<<<<< Updated upstream
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993119072622726379, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}
+      propertyPath: m_TagString
+      value: Points
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80f3b9b8392053046bbc35d1826c1715, type: 3}

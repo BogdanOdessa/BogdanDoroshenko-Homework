@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Interfaces\IAction.cs" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\PlayerSpeed.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\DisplayBonuses.cs" />
@@ -65,6 +66,8 @@
     <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\GetPoints.cs" />
 =======
+=======
+>>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\Player\PlayerSpeed.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\MyException.cs" />
@@ -88,6 +91,9 @@
     <Compile Include="Assets\Scripts\TestScripts\Homework5.cs" />
     <Compile Include="Assets\Scripts\CameraShake.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\PointsReceiver.cs" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\InteractiveObjects\Trap.cs" />
     <Compile Include="Assets\Scripts\Radar\RadarObj.cs" />
@@ -102,6 +108,9 @@
     <Compile Include="Assets\Scripts\SaveGame\StreamData.cs" />
     <Compile Include="Assets\Scripts\Player\Crypto.cs" />
     <Compile Include="Assets\Scripts\MiniMap.cs" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\SpeedBonus.cs" />
@@ -121,6 +130,9 @@
     <Compile Include="Assets\Scripts\Interfaces\IBonus.cs" />
     <Compile Include="Assets\Scripts\Controllers\BonusController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerRender.cs" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>

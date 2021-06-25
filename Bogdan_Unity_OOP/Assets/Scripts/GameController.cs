@@ -97,13 +97,21 @@ namespace Game {
                 if (interactiveObject is IFlay flay)
                 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     flay.Flay();
+=======
+                    trap._caughtPlayer += _player.Die;
+                    trap._caughtPlayer += _GameText.GameOver;
+>>>>>>> Stashed changes
                 }
 
                 if (interactiveObject is IFlick flick)
                 {
+<<<<<<< Updated upstream
                     flick.Flick();
 =======
+=======
+>>>>>>> Stashed changes
                     speedBonus.ActionEventSpeedBonus += _bonusController.GetBonus;
                     speedBonus.ActionEventSpeedBonus += _playerSpeed.SpeedIncrease;
                     speedBonus.ActionEventSpeedBonus += _playerRender.ChangeColorToGoodEffect;
@@ -122,6 +130,9 @@ namespace Game {
                     speedDecrease.myDelegateSpeedIncrease += _bonusController.GetBonus;
                     speedDecrease.myDelegateSpeedIncrease += _playerSpeed.SpeedDecrease;
                     speedDecrease.myDelegateSpeedIncrease += _playerRender.ChangeColorToBadEffect;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 }
 
@@ -132,6 +143,7 @@ namespace Game {
             }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         }
         //public void Dispose()
         //{
@@ -141,6 +153,8 @@ namespace Game {
         //    }
         //}
 =======
+=======
+>>>>>>> Stashed changes
             //if(_player != null)
             _GameText.Display(_pointsCounter.Totalpoints);
 

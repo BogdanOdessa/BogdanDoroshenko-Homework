@@ -1010,4 +1010,7 @@ C# parse time         : 150ms
 candidates check time : 33ms
 console write time    : 0ms
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
