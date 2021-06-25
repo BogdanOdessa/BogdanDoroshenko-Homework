@@ -1,11 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
-using Game;
+using Random = UnityEngine.Random;
 
-    public class Trap : InteractiveObject, IFlay
+namespace Game
+{
+    public sealed class Trap : InteractiveObject, IFlay
     {
+<<<<<<< Updated upstream
         private Player _player;
+=======
+        public delegate void CaughtPlayerChange(object value);
+
+        public event EventHandler<Color> _caughtPlayer;
+        // public event EventHandler<Color> CaughtPlayer
+        // {
+        //     add { _caughtPlayer += value; }
+        //     remove { _caughtPlayer -= value; }
+        // }
+
+>>>>>>> Stashed changes
         private float _lengthFlay;
         private Material _material;
 
@@ -13,13 +26,13 @@ using Game;
         {
             _lengthFlay = Random.Range(2f, 4f);
             _material = GetComponent<Renderer>().material;
-            _player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
             Action();
         }
 
         public override void Action()
         {
             _material.color = Color.red;
+            _color = _material.color;
 
         }
         public void Flay()
@@ -29,14 +42,19 @@ using Game;
 
         public override void Interraction()
         {
-        _player.Die();
+            _caughtPlayer?.Invoke(this, _color);
+            
+            //_player.Die();
         }
 
-        private void Update()
+        public override void Execute()
         {
             Flay();
         }
+
     }
+}
+
 
     
     

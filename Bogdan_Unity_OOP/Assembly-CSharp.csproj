@@ -56,26 +56,75 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Player\InputController.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\PredicateAndFuncDelegatesExample.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IAction.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\PlayerSpeed.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\DisplayBonuses.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\SpeedDecrease.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\GetPoints.cs" />
+=======
+    <Compile Include="Assets\Scripts\Player\PlayerSpeed.cs" />
+    <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\MyException.cs" />
+    <Compile Include="Assets\Scripts\SaveGame\JsonData.cs" />
+    <Compile Include="Assets\Scripts\DisplayText.cs" />
+    <Compile Include="Assets\Scripts\CaughtPlayerEventArgs.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IData.cs" />
+    <Compile Include="Assets\Scripts\ListExecuteObject.cs" />
+    <Compile Include="Assets\Scripts\SpeedIncrease\SpeedModel.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerBase.cs" />
+    <Compile Include="Assets\Scripts\SaveGame\XML.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\ExampleLinq.cs" />
+    <Compile Include="Assets\Scripts\Reference.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\DisplayEndGame.cs" />
+    <Compile Include="Assets\Scripts\SpeedIncrease\SpeedView.cs" />
+    <Compile Include="Assets\Scripts\InteractiveObjects\SpeedDecrease.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
+    <Compile Include="Assets\Scripts\SaveGame\SaveData.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\Test.cs" />
+    <Compile Include="Assets\Scripts\SaveGame\SaveDataRepository.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\Homework5.cs" />
+    <Compile Include="Assets\Scripts\CameraShake.cs" />
+    <Compile Include="Assets\Scripts\InteractiveObjects\PointsReceiver.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\InteractiveObjects\Trap.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IFlick.cs" />
     <Compile Include="Assets\Scripts\Interfaces\ISpeedChange.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\TestP.cs" />
     <Compile Include="Assets\Scripts\InteractiveObject.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\Clone.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\GetPoints.cs" />
+=======
+    <Compile Include="Assets\Scripts\Interfaces\IExecute.cs" />
+    <Compile Include="Assets\Scripts\SaveGame\StreamData.cs" />
+    <Compile Include="Assets\Scripts\Player\Crypto.cs" />
+    <Compile Include="Assets\Scripts\MiniMap.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\SpeedIncrease\SpeedControl.cs" />
+    <Compile Include="Assets\Scripts\ExtensionMethods.cs" />
     <Compile Include="Assets\Scripts\InteractiveObjects\SpeedBonus.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IRotation.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\TrashScripts\Head.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IFlay.cs" />
     <Compile Include="Assets\Scripts\PointsCounter.cs" />
+=======
+    <Compile Include="Assets\Scripts\TestScripts\Head.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\PhotoController.cs" />
+    <Compile Include="Assets\Scripts\PlayerType.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IFlay.cs" />
+    <Compile Include="Assets\Scripts\PointsCounter.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IBonus.cs" />
+    <Compile Include="Assets\Scripts\Controllers\BonusController.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerRender.cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
